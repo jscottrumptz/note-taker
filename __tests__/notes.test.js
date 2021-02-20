@@ -1,5 +1,5 @@
 const fs = require("fs");
-const {deleteNote, createNewNote, validateNote} = require("../lib/notes.js");
+const {createNewNote, validateNote} = require("../lib/notes.js");
 const db = require('../db/db');
 
 jest.mock('fs');

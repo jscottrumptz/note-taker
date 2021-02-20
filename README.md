@@ -24,6 +24,7 @@ An application that saves and retrieves note data from a JSON file using an Expr
 * [Features](#features)
 * [Contributing](#contributing)
 * [Questions](#questions)
+* [Tests](#tests)
 * [Credits](#credits)
 * [License](#license)
 
@@ -61,6 +62,14 @@ Also, feel free to contact me directly with questions or feedback about the proj
 - Email: [jscott@rumptz.tech](mailto:jscott@rumptz.tech?subject=Question%20about%20note-taker)
 
 
+---
+
+## Tests
+
+
+### Dev tests for classes
+- Jest tests for the classes are included, simply run 'npm test' from the command line.
+
 
 ---
 ## Credits
@@ -70,8 +79,9 @@ Made with ❤️ by [J. Scott Rumptz](https://github.com/jscottrumptz/?target=_b
 - [Express.js](https://expressjs.com/?target=_blank)
                     
 - [Heroku](https://heroku.com/?target=_blank)
-                    
 
+- [Jest](https://www.npmjs.com/package/jest?target=_blank)
+                    
 
 
 
