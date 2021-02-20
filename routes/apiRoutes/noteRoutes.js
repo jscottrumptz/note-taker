@@ -1,9 +1,9 @@
 const router = require('express').Router();
-const { findById, createNewNote, validateNote } = require('../../lib/notes');
-const { db } = require('../../db/db');
+const { deleteNote, createNewNote, validateNote, findById } = require('../../lib/notes');
+let db = require('../../db/db');
 
 router.get('/notes', (req, res) => {
-    res.json(db);
+    return res.json(db);
 });
 
 router.get('/notes/:id', (req, res) => {
@@ -13,6 +13,10 @@ router.get('/notes/:id', (req, res) => {
       } else {
         res.send(404);
       }
+});
+
+router.delete('/notes/:id', (req, res) => {
+
 });
 
 router.post('/notes', (req,res) => {
