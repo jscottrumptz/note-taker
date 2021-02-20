@@ -12,6 +12,16 @@
   {
     "title": "Sat Morning Note",
     "text": "This was made today\n",
-    "id": "12"
+    "id": "2"
+  },
+  {
+    "title": "Sat, Feb 20th 5:52am",
+    "text": "After cleaning up the buggy starter code, I finally got this thing to work! I just needed to sleep on it.",
+    "id": "3"
+  },
+  {
+    "title": "Delete now works too",
+    "text": "Time to comment my code and turn this in.",
+    "id": "4"
   }
 ]

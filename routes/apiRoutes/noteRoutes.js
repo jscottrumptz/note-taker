@@ -2,24 +2,18 @@ const router = require('express').Router();
 const { deleteNote, createNewNote, validateNote} = require('../../lib/notes');
 let db = require('../../db/db');
 
+// get notes
 router.get('/notes', (req, res) => {
     return res.json(db);
 });
 
-router.get('/notes/:id', (req, res) => {
-    const result = findById(req.params.id, db);
-    if (result) {
-        res.json(result);
-      } else {
-        res.send(404);
-      }
-});
-
+// delete notes
 router.delete('/notes/:id', (req, res) => {
     db = deleteNote(req.params.id, db);
     res.json(db)
 });
 
+// create notes
 router.post('/notes', (req,res) => {
     // req.body is where our incoming content will be
     // set id based on what the next index of the array will be

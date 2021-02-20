@@ -14,7 +14,7 @@ app.use(express.json());
 // make the public folder files static resources
 app.use(express.static('public'));
 
-// This is our way of telling the server that any time a client navigates to <ourhost>/api, 
+// this is our way of telling the server that any time a client navigates to <ourhost>/api, 
 // the app will use the router we set up in apiRoutes. If / is the endpoint, then the router 
 // will serve back our HTML routes.
 app.use('/api', apiRoutes);
