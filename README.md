@@ -67,8 +67,8 @@ Also, feel free to contact me directly with questions or feedback about the proj
 ## Tests
 
 
-### Dev tests for classes
-- Jest tests for the classes are included, simply run 'npm test' from the command line.
+### Dev tests
+- Jest tests are included, simply run 'npm test' from the command line.
 
 
 ---
